@@ -1,0 +1,84 @@
+.contentView {
+    width: 70%;
+    height: 100vh;
+    margin-left: 29%;
+}
+
+.contentView h1 {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.backgroundView {
+    background-color: rgba(0, 0, 0, 0.511);
+    width: 90%;
+    padding: 1rem;
+}
+
+.lineView {
+    display: flex;
+    align-items: flex-end;
+}
+
+.lineView label {
+    margin-right: .8rem;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.lineView p {
+    font-size: 1.5rem;
+    margin-bottom: .4rem;
+    color: rgb(16, 131, 116);
+}
+
+.divBtnView {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.divBtnView button {
+    width: 10vw;
+    height: 6vh;
+    margin-right: 6rem;
+    background-color: rgb(40, 148, 134);
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+
+.divBtnView button:hover {
+    background-color: rgba(40, 148, 134, 0.664);
+}
+
+/* -------------------------------- */
+
+@media only screen and (max-width: 720px) {
+    .contentView {
+
+        margin-left: 39%;
+    }
+
+    .contentView h1 {
+        font-size: 2rem;
+    }
+
+    .lineView {
+        margin: .5rem;
+    }
+
+    .lineView label {
+        font-size: 1rem;
+        margin-right: .3rem;
+
+    }
+
+    .lineView p {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}

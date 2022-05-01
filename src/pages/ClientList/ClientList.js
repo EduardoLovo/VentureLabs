@@ -12,7 +12,7 @@ export const ListClient = () => {
             <div className='contentList'>
                 <h1>Lista de Clientes</h1>
                 {listC.map((client, index) => (
-                    <Link to='./' key={client.id} client={client} className='linkCard'>
+                    <Link to={`/client/view/${client.id}`} key={client.id} client={client} className='linkCard'>
                         <div className='card' >
                             <img src='https://cdn-icons-png.flaticon.com/512/1077/1077063.png' alt='img' />
                             <h2 className='name'>{client.nome} {client.sobrenome}</h2>
