@@ -19,16 +19,13 @@
     transition: all .2s ease-in-out;
 }
 
-
-
 .linkCard {
     text-decoration: none;
     color: white;
 }
 
-.card img {
-    height: 5vh;
-    margin: 0 1rem 0 2rem;
+.card h1 {
+    color: rgb(40, 148, 134);
 }
 
 .card:hover {

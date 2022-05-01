@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { List } from '../../List';
-import './ClientList.css'
+import './ClientList.css';
+import { FaUser } from 'react-icons/fa';
 
 export const ListClient = () => {
 
@@ -14,7 +15,7 @@ export const ListClient = () => {
                 {listC.map((client, index) => (
                     <Link to={`/client/view/${client.id}`} key={client.id} client={client} className='linkCard'>
                         <div className='card' >
-                            <img src='https://cdn-icons-png.flaticon.com/512/1077/1077063.png' alt='img' />
+                            <h1><FaUser /></h1>
                             <h2 className='name'>{client.nome} {client.sobrenome}</h2>
                         </div>
                     </Link>

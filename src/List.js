@@ -9,7 +9,7 @@ export const List =
             cep: '88888',
             endereco1: 'rua endereco 1',
             endereco2: 'rua endereco 2',
-            dataDeNascimento: '04/07/92',
+            dataDeNascimento: '1992/02/13',
             cpf: '1481381311',
             rendaMensal: '1100,00',
         },
@@ -22,7 +22,7 @@ export const List =
             cep: '88888',
             endereco1: 'Rua Brasil',
             endereco2: 'Rua Jorge Salvador',
-            dataDeNascimento: '01/10/85',
+            dataDeNascimento: '1985/05/18',
             cpf: '18135886732',
             rendaMensal: '2500,00',
         }

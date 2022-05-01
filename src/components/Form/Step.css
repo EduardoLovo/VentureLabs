@@ -1,0 +1,105 @@
+.header h1 {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer button {
+    width: 150px;
+    height: 50px;
+    margin: 3rem 4.5rem 0 0;
+    background-color: rgb(40, 148, 134);
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.footer button:hover {
+    background-color: rgba(40, 148, 134, 0.664);
+}
+
+.contentStep {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.319);
+    width: 91%;
+    height: 22rem;
+    padding: 3rem;
+}
+
+.contentStep label {
+    margin-left: 22%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contentStep input {
+    width: 60%;
+    margin: 0 auto .5rem auto;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    padding: .5rem;
+}
+
+/* ---------------------------------- */
+.progressbar {
+    width: 91%;
+    height: 10px;
+    background-color: white;
+    margin: 0 0 50px 0;
+}
+
+.progressbar div {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(40, 148, 134);
+}
+
+/* -------------------------------- */
+
+
+.stepFour {
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 2rem;
+    text-align: center;
+    margin: auto 0;
+    font-size: 2rem;
+}
+
+/* ================================== */
+
+@media only screen and (max-width: 720px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .footer button {
+        width: 100px;
+        margin: 2rem .5rem 0 .5rem;
+    }
+
+    .contentStep {
+        width: 95%;
+        margin-left: 2%;
+        padding: 2rem;
+    }
+
+    .contentStep input {
+        width: 103%;
+    }
+
+    .contentStep label {
+        margin-left: 10%;
+    }
+
+    .progressbar {
+        margin-left: 4%;
+    }
+}
