@@ -1,0 +1,58 @@
+.bodyList {
+    width: 70%;
+    height: 100vh;
+    margin-left: 29%;
+}
+
+.contentList h1 {
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.card {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    background-color: rgba(0, 0, 0, 0.319);
+    transition: all .2s ease-in-out;
+}
+
+
+
+.linkCard {
+    text-decoration: none;
+    color: white;
+}
+
+.card img {
+    height: 5vh;
+    margin: 0 1rem 0 2rem;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.152);
+}
+
+/* ------------------------- */
+
+@media only screen and (max-width: 720px) {
+    .bodyList {
+        margin-left: 35%;
+    }
+
+    .contentList h1 {
+        font-size: 2rem;
+    }
+
+    .linkCard {
+        font-size: 70%;
+    }
+
+    .card img {
+        height: 3vh;
+        margin: 0 1rem 0 1rem;
+    }
+}
