@@ -1,0 +1,50 @@
+.contentHeader {
+    background-color: rgba(0, 0, 0, 0.511);
+    height: 97vh;
+    width: 20%;
+    margin: 1rem;
+    color: white;
+    border-radius: 5px;
+    position: fixed;
+}
+
+.divHeader {
+    margin: 2rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.divHeader h1 {
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.linkMenu {
+    /* font-size: 2rem; */
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    width: 90%;
+    font-size: 1.9vw;
+    transition: all .3s ease-in-out;
+}
+
+.linkMenu:hover {
+    background-color: rgba(255, 255, 255, 0.152);
+}
+
+/* -------------- */
+
+@media only screen and (max-width: 720px) {
+    .contentHeader {
+        width: 30%;
+    }
+
+    .divHeader h1 {
+        font-size: 6vw;
+    }
+
+    .linkMenu {
+        font-size: 4vw;
+    }
+}
